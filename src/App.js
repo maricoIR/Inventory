@@ -1,9 +1,8 @@
+import AppRouter from "./AppRouter";
+import "./index.css";
+
 function App() {
-  return (
-    <div className="App">
-      <span className="text-rose-500">Testing</span>
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;
