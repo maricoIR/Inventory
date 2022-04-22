@@ -1,0 +1,27 @@
+.main-shadow{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.table-typo th {
+    font-weight: 400;
+    color: #121212;
+    font-size:16px;
+}
+.table-typo td {
+    padding-top: 2px;
+    font-weight: 400;
+    color: #525c66;
+    font-size:15px;
+}
+.last-border-0 tr:last-child {
+    border-bottom: 0px solid transparent !important;
+    height: 60px !important;
+}
+thead {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color:rgb(231 238 247);
+}
