@@ -44,7 +44,7 @@ const Table = () => {
   };
 
   return (
-    <div className="w-[950px] bg-white shadow-xl rounded-lg pb-2 max-h-[73vh] overflow-y-auto">
+    <div className="lg:w-[950px] w-full bg-white shadow-xl rounded-lg pb-2 max-h-[73vh] overflow-y-auto">
       <ReactTooltip
         place="top"
         type="dark"

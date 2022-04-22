@@ -33,7 +33,7 @@ const Edit = () => {
   };
 
   return (
-    <div className="w-[1085px] bg-white shadow-md rounded-2xl py-5 mt-8 mb-8 px-6 border border-blue-200">
+    <div className="lg:w-[1085px] w-full bg-white shadow-md rounded-2xl py-5 mt-8 mb-8 px-6 border border-blue-200">
       <div className="w-full flex items-center justify-center mt-1">
         <span className="font-medium text-[18px] text-textclr">
           ویرایش محصول

@@ -27,9 +27,9 @@ const Actionbar = () => {
   };
 
   return (
-    <div className="w-[950px] bg-white shadow-md rounded-2xl h-[100px] mt-8 mb-8 px-8 border border-blue-200">
+    <div className="lg:w-[950px] w-full bg-white shadow-md rounded-2xl h-[100px] mt-8 mb-8 px-8 border border-blue-200">
       <div className="flex flex-row-reverse items-center justify-between w-full h-full">
-        <div className="relative flex flex-row items-center gap-2 border-b border-[#9f9f9f] w-[250px]">
+        <div className="relative flex flex-row items-center gap-2 border-b border-[#9f9f9f] w-[45%] lg:w-[30%]">
           <input
             type="text"
             className="bg-transparent outline-none border-none dir-rtl mb-2 w-full text-textclr font-normal text-[15px]"
