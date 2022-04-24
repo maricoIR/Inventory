@@ -12,7 +12,7 @@ const Actionbar = () => {
     dispatch,
   } = useContext(DataContext);
 
-  const ToDelete = () => {
+  const Delete = () => {
     if (!ids.length) {
       toast.error("محصولی برای حذف انتخاب نشده است");
     } else {
@@ -42,7 +42,7 @@ const Actionbar = () => {
         <div className="flex gap-6 items-center">
           <div
             className="flex items-center gap-2 border border-red-500 rounded-md px-2 py-1 cursor-pointer"
-            onClick={() => ToDelete()}
+            onClick={() => Delete()}
           >
             <span className="text-sm text-red-500 font-medium">حذف</span>
             <TrashOutline color={"#ef4444"} width={"20px"} />
