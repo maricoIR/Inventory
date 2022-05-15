@@ -8,6 +8,7 @@ const initialState = {
   edit: false,
   add: false,
   reload: 1,
+  dbError: false,
 };
 
 function reducer(state, action) {
